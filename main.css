@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 20px;
+  font-family: 'Text Me One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body.dark {
+  color: white;
+  background: black;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: rgb(69, 9, 126);
+  font-weight: normal;
+  font-size: 60px;
+  margin: 5px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-family: 'Creepster', sans-serif;
+  color: rgb(126, 9, 44);
+  font-weight: normal;
+  font-size: 30px;
+  margin: 5px;
+}
+
+button {  
+  display: block;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.textEntry {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+    label {
+      display: block;
+      margin-top: 0.1rem;
+      margin-bottom: 0.1rem;
+    }
+
+    /* input box dtyle */
+    #goal {
+      width: 20%;
+    }
+
+    li {
+      margin-top: 0.5rem;
+    }
+
+    /* Button styles */
+    #sub {
+      margin-top: 0.3rem;
+      color: white;
+      background-color: rgb(2, 45, 56);
+      border: none;
+      padding: 0.2rem 0.4rem;
+      cursor: pointer;
+    }
+
+    .deleteMe,
+    .deleteCompleted {
+      margin-left: 2rem;
+      color: white;
+      background-color: black;
+      border: none;
+      padding: 0.2rem 0.4rem;
+      cursor: pointer;
+    }
+
+    .markAsCompleted {
+      margin-left: 0.4rem;
+      color: white;
+      background-color: black;
+      border: none;
+      padding: 0.2rem 0.4rem;
+      cursor: pointer;
+    }
+
+    /* Button mouse hover styles */
+
+    #Btn:hover,
+    .deleteMe:hover,
+    .markCompleted:hover {
+      opacity: 0.8;
+    }
+
+    .completedGoalsItems {
+      text-decoration: line-through;
+    }
+ 
